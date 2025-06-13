@@ -1,0 +1,92 @@
+@font-face {
+    font-family: kid;
+    src: url(KIDS\ JOURNEY.otf);
+}
+@font-face {
+    font-family: baby;
+    src: url(Super\ Adorable.ttf);
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    color:  pink;
+    -webkit-text-stroke: 0.2px black;
+    font-family: baby;
+}
+
+#pai{
+    /* px - unidade absoluta */
+    width: 1200px;
+    height: 500px;
+    border: solid 3px red;
+
+    /* unidade relativa vw - vh */
+    width: 50vw; 
+    height: 30vh;
+
+
+}
+
+#filho{
+    /* px - unidade absoluta */
+    width: 300px;
+    height: 300px;
+    border: solid 3px blue;
+
+    /* unidade relativa vw e vh */
+    width: 40vw;
+    height: 20vh;
+
+    /* unidade relativa - porcentagem */
+    /* porcentagem em relação ao pai */
+    width: 50%;
+    height: 50%;
+
+}
+
+
+
+body{
+    background-image: url(https://img.freepik.com/vetores-premium/linha-de-rabiscos-de-crianca-bonita-flor-coracao-arco-iris-fundo-esboco-desenhado-a-mao-elemento-infantil_787654-934.jpg?semt=ais_hybrid&w=740);
+}
+
+div{
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(112, 194, 239);
+    text-align: center;
+    background-color: rgb(238, 211, 216);
+    width: 850px;
+    height: 700px;
+    pad: 50px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    color:  rgb(112, 194, 239);
+    -webkit-text-stroke: 0.1px white;
+    font-family: kid;
+    
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    border: solid 3px rgb(112, 194, 239);
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    color:  rgb(112, 194, 239);
+    -webkit-text-stroke: 0.001px black;
+    font-family: kid;
+}
+#keyla{
+    color: pink;
+}
